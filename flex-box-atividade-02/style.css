@@ -1,0 +1,72 @@
+/* Estilos Globais */
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+
+    display: flex;
+    position: relative; /* Para posicionamento absoluto das bolas */
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    position: absolute; /* Para posicionamento manual dos elementos */
+}
+
+/* Estilos das Cores */
+.cor1 {
+    background-color: #ED145B;
+    top: 10px; /* Posiciona o círculo 1 no topo */
+    left: 10px; /* Alinha à esquerda */
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    bottom: 10px; /* Posiciona o círculo 2 no fundo */
+    right: 82%; /* Alinha à direita */
+}
+
+.cor3 {
+    background-color: #EFB661;
+    top: 50%; /* puxa o elemento para cima */
+    left: 10%; /* traz o elemento para a esquerda */
+    transform: translate(-50%, -50%); /* Centraliza no centro da div */
+}
+
+/* Outras classes */
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
